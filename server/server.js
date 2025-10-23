@@ -32,8 +32,6 @@ app.use(
     // Allow both with and without trailing slash
     origin: function (origin, callback) {
       const allowedOrigins = [
-        'https://shopkart-1-yz9u.onrender.com', // Production URL
-        'https://shopkart-1-yz9u.onrender.com/', // Production URL with trailing slash
         'http://localhost:5173', // Local development URL
       ];
 
