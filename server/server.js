@@ -33,6 +33,7 @@ app.use(
     origin: function (origin, callback) {
       const allowedOrigins = [
         'http://localhost:5173', // Local development URL
+        'https://shopkart-2025-frontend.onrender.com',
       ];
 
       // Allow requests with no origin (like mobile apps or curl requests)
