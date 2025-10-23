@@ -52,7 +52,7 @@ function ProductImageUpload({
       data.append('my_file', imageFile);
       console.log('Uploading image to server...');
       const response = await axios.post(
-        `https://shopkart-2pmn.onrender.com/api/admin/products/upload-image`,
+        `https://shopkart-2025.onrender.com/api/admin/products/upload-image`,
         data
       );
       console.log(response, 'response');

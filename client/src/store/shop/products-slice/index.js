@@ -18,7 +18,7 @@ export const fetchAllFilteredProducts = createAsyncThunk(
     });
 
     const result = await axios.get(
-      `https://shopkart-2pmn.onrender.com/api/shop/products/get?${query}`
+      `https://shopkart-2025.onrender.com/api/shop/products/get?${query}`
     );
 
     console.log(result);
@@ -31,7 +31,7 @@ export const fetchProductDetails = createAsyncThunk(
   '/products/fetchProductDetails',
   async (id) => {
     const result = await axios.get(
-      `https://shopkart-2pmn.onrender.com/api/shop/products/get/${id}`
+      `https://shopkart-2025.onrender.com/api/shop/products/get/${id}`
     );
 
     return result?.data;
